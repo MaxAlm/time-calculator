@@ -1,0 +1,20 @@
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\bin\Release\TimeCalculator.exe.config
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\bin\Release\TimeCalculator.exe
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\bin\Release\TimeCalculator.pdb
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.csprojAssemblyReference.cache
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.Form1.resources
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.Properties.Resources.resources
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.csproj.GenerateResource.cache
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.exe
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.pdb
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\bin\Release\TimeCalculator.exe.config
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\bin\Release\TimeCalculator.exe
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\bin\Release\TimeCalculator.pdb
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.csproj.AssemblyReference.cache
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.Form1.resources
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.Properties.Resources.resources
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.csproj.GenerateResource.cache
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.exe
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Release\TimeCalculator.pdb

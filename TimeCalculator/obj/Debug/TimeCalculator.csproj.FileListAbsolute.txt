@@ -1,0 +1,30 @@
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.exe.config
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.exe
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.pdb
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csprojAssemblyReference.cache
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.Form1.resources
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.Properties.Resources.resources
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csproj.GenerateResource.cache
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.exe
+C:\Users\zecti\Documents\Visual Studio 2015\Projects\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.pdb
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.exe.config
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.exe
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.pdb
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csprojAssemblyReference.cache
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.Form1.resources
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.Properties.Resources.resources
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csproj.GenerateResource.cache
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.exe
+C:\Users\46705\Documents\Visual Studio\Programmering 1\Forms\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.pdb
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.exe.config
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.exe
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\bin\Debug\TimeCalculator.pdb
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csproj.AssemblyReference.cache
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.Form1.resources
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.Properties.Resources.resources
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csproj.GenerateResource.cache
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.exe
+C:\Users\46705\OneDrive\Documents\Visual Studio\Annat\TimeCalculator\TimeCalculator\obj\Debug\TimeCalculator.pdb
