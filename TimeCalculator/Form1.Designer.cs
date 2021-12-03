@@ -40,15 +40,16 @@
             this.timeText2 = new System.Windows.Forms.Label();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.comboDay = new System.Windows.Forms.ComboBox();
+            this.label_total_text = new System.Windows.Forms.Label();
+            this.label_total = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listView
             // 
             this.listView.HideSelection = false;
-            this.listView.Location = new System.Drawing.Point(24, 23);
-            this.listView.Margin = new System.Windows.Forms.Padding(6);
+            this.listView.Location = new System.Drawing.Point(12, 12);
             this.listView.Name = "listView";
-            this.listView.Size = new System.Drawing.Size(400, 625);
+            this.listView.Size = new System.Drawing.Size(202, 327);
             this.listView.TabIndex = 0;
             this.listView.UseCompatibleStateImageBehavior = false;
             // 
@@ -56,30 +57,27 @@
             // 
             this.dateText.AutoSize = true;
             this.dateText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateText.Location = new System.Drawing.Point(495, 82);
-            this.dateText.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.dateText.Location = new System.Drawing.Point(248, 43);
             this.dateText.Name = "dateText";
-            this.dateText.Size = new System.Drawing.Size(60, 29);
+            this.dateText.Size = new System.Drawing.Size(31, 15);
             this.dateText.TabIndex = 4;
             this.dateText.Text = "Day:";
             // 
             // inputHourStart
             // 
-            this.inputHourStart.Location = new System.Drawing.Point(500, 265);
-            this.inputHourStart.Margin = new System.Windows.Forms.Padding(6);
+            this.inputHourStart.Location = new System.Drawing.Point(250, 138);
             this.inputHourStart.MaxLength = 2;
             this.inputHourStart.Name = "inputHourStart";
-            this.inputHourStart.Size = new System.Drawing.Size(44, 31);
+            this.inputHourStart.Size = new System.Drawing.Size(24, 20);
             this.inputHourStart.TabIndex = 1;
             this.inputHourStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // inputMinStart
             // 
-            this.inputMinStart.Location = new System.Drawing.Point(592, 265);
-            this.inputMinStart.Margin = new System.Windows.Forms.Padding(6);
+            this.inputMinStart.Location = new System.Drawing.Point(296, 138);
             this.inputMinStart.MaxLength = 2;
             this.inputMinStart.Name = "inputMinStart";
-            this.inputMinStart.Size = new System.Drawing.Size(44, 31);
+            this.inputMinStart.Size = new System.Drawing.Size(24, 20);
             this.inputMinStart.TabIndex = 2;
             this.inputMinStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -87,10 +85,9 @@
             // 
             this.timeColon1.AutoSize = true;
             this.timeColon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeColon1.Location = new System.Drawing.Point(560, 267);
-            this.timeColon1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.timeColon1.Location = new System.Drawing.Point(280, 139);
             this.timeColon1.Name = "timeColon1";
-            this.timeColon1.Size = new System.Drawing.Size(19, 29);
+            this.timeColon1.Size = new System.Drawing.Size(10, 15);
             this.timeColon1.TabIndex = 7;
             this.timeColon1.Text = ":";
             this.timeColon1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,30 +96,27 @@
             // 
             this.timeText1.AutoSize = true;
             this.timeText1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeText1.Location = new System.Drawing.Point(494, 202);
-            this.timeText1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.timeText1.Location = new System.Drawing.Point(247, 105);
             this.timeText1.Name = "timeText1";
-            this.timeText1.Size = new System.Drawing.Size(101, 58);
+            this.timeText1.Size = new System.Drawing.Size(54, 30);
             this.timeText1.TabIndex = 8;
             this.timeText1.Text = "Start\r\n(hh:mm)";
             // 
             // inputHourEnd
             // 
-            this.inputHourEnd.Location = new System.Drawing.Point(500, 419);
-            this.inputHourEnd.Margin = new System.Windows.Forms.Padding(6);
+            this.inputHourEnd.Location = new System.Drawing.Point(250, 218);
             this.inputHourEnd.MaxLength = 2;
             this.inputHourEnd.Name = "inputHourEnd";
-            this.inputHourEnd.Size = new System.Drawing.Size(44, 31);
+            this.inputHourEnd.Size = new System.Drawing.Size(24, 20);
             this.inputHourEnd.TabIndex = 3;
             this.inputHourEnd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // inputMinEnd
             // 
-            this.inputMinEnd.Location = new System.Drawing.Point(592, 419);
-            this.inputMinEnd.Margin = new System.Windows.Forms.Padding(6);
+            this.inputMinEnd.Location = new System.Drawing.Point(296, 218);
             this.inputMinEnd.MaxLength = 2;
             this.inputMinEnd.Name = "inputMinEnd";
-            this.inputMinEnd.Size = new System.Drawing.Size(44, 31);
+            this.inputMinEnd.Size = new System.Drawing.Size(24, 20);
             this.inputMinEnd.TabIndex = 4;
             this.inputMinEnd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -130,10 +124,9 @@
             // 
             this.timeColon2.AutoSize = true;
             this.timeColon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeColon2.Location = new System.Drawing.Point(560, 421);
-            this.timeColon2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.timeColon2.Location = new System.Drawing.Point(280, 219);
             this.timeColon2.Name = "timeColon2";
-            this.timeColon2.Size = new System.Drawing.Size(19, 29);
+            this.timeColon2.Size = new System.Drawing.Size(10, 15);
             this.timeColon2.TabIndex = 11;
             this.timeColon2.Text = ":";
             this.timeColon2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -142,19 +135,17 @@
             // 
             this.timeText2.AutoSize = true;
             this.timeText2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeText2.Location = new System.Drawing.Point(494, 356);
-            this.timeText2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.timeText2.Location = new System.Drawing.Point(247, 185);
             this.timeText2.Name = "timeText2";
-            this.timeText2.Size = new System.Drawing.Size(101, 58);
+            this.timeText2.Size = new System.Drawing.Size(54, 30);
             this.timeText2.TabIndex = 12;
             this.timeText2.Text = "End\r\n(hh:mm)";
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(500, 544);
-            this.buttonAdd.Margin = new System.Windows.Forms.Padding(6);
+            this.buttonAdd.Location = new System.Drawing.Point(250, 283);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(140, 44);
+            this.buttonAdd.Size = new System.Drawing.Size(70, 23);
             this.buttonAdd.TabIndex = 5;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -171,16 +162,37 @@
             "Friday",
             "Saturday",
             "Sunday"});
-            this.comboDay.Location = new System.Drawing.Point(499, 114);
+            this.comboDay.Location = new System.Drawing.Point(250, 59);
+            this.comboDay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboDay.Name = "comboDay";
-            this.comboDay.Size = new System.Drawing.Size(155, 33);
+            this.comboDay.Size = new System.Drawing.Size(80, 21);
             this.comboDay.TabIndex = 0;
+            // 
+            // label_total_text
+            // 
+            this.label_total_text.AutoSize = true;
+            this.label_total_text.Location = new System.Drawing.Point(12, 342);
+            this.label_total_text.Name = "label_total_text";
+            this.label_total_text.Size = new System.Drawing.Size(34, 13);
+            this.label_total_text.TabIndex = 13;
+            this.label_total_text.Text = "Total:";
+            // 
+            // label_total
+            // 
+            this.label_total.AutoSize = true;
+            this.label_total.Location = new System.Drawing.Point(156, 342);
+            this.label_total.Name = "label_total";
+            this.label_total.Size = new System.Drawing.Size(58, 13);
+            this.label_total.TabIndex = 14;
+            this.label_total.Text = "0 hrs 0 min";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(718, 675);
+            this.ClientSize = new System.Drawing.Size(359, 364);
+            this.Controls.Add(this.label_total);
+            this.Controls.Add(this.label_total_text);
             this.Controls.Add(this.comboDay);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.timeText2);
@@ -193,7 +205,8 @@
             this.Controls.Add(this.inputHourStart);
             this.Controls.Add(this.dateText);
             this.Controls.Add(this.listView);
-            this.Margin = new System.Windows.Forms.Padding(6);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Time Calculator";
@@ -217,6 +230,8 @@
         private System.Windows.Forms.Label timeText2;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.ComboBox comboDay;
+        private System.Windows.Forms.Label label_total_text;
+        private System.Windows.Forms.Label label_total;
     }
 }
 

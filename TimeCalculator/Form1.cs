@@ -46,6 +46,11 @@ namespace TimeCalculator
             }
         }
 
+        ///////////////////
+        //// VARIABLER ////
+        ///////////////////
+
+        int total = 0;  // Totala antalet minuter arbetade sammanlagt
 
         ///////////////////
         //// KOD START ////
@@ -58,10 +63,6 @@ namespace TimeCalculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Stäng av resize och maximize
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-
             // Sätt ComboBox till "Monday" som default
             comboDay.SelectedIndex = 0;
 
@@ -81,7 +82,7 @@ namespace TimeCalculator
             int minE;
 
             string time;
-            string day = String.Empty;
+            string day = "";
 
 
             // Kolla så inga inmatnings fält är tomma
@@ -89,13 +90,13 @@ namespace TimeCalculator
             {
                 try
                 {
-                    // Försök konvertera och lagra text fälten
+                    // Konvertera och lagra text fälten
                     hourS = Convert.ToInt32(inputHourStart.Text);
                     minS = Convert.ToInt32(inputMinStart.Text);
                     hourE = Convert.ToInt32(inputHourEnd.Text);
                     minE = Convert.ToInt32(inputMinEnd.Text);
 
-                    // Felsök variablerna
+                    // Se tilla att inga felaktiga tider har matats in
                     if (hourS <= 23 && minS <= 59 && hourS >= 0 && minS >= 0)
                     {
                         if (hourE <= 23 && minE <= 59 && hourE >= 0 && minE >= 0)
@@ -147,33 +148,18 @@ namespace TimeCalculator
                     }
 
                     // Lagra tid
-                    if (hourE < 10)
-                    {
-                        if (minE < 10)
-                        {
-                            time = "0" + hourE + " hrs 0" + minE + " min";
-                        }
-                        else
-                        {
-                            time = "0" + hourE + " hrs " + minE + " min";
-                        }
-                    }
-                    else
-                    {
-                        if (minE < 10)
-                        {
-                            time = "" + hourE + " hrs 0" + minE + " min";
-                        }
-                        else
-                        {
-                            time = "" + hourE + " hrs " + minE + " min";
-                        }
-                    }
+                    time = String.Format("{0} hrs {1} min", hourE, minE);
 
                     // Lägg till arbetad tid i listan
                     string[] itemInfo = { day, time };
                     ListViewItem item = new ListViewItem(itemInfo);
                     listView.Items.Add(item);
+
+                    // Lagra och skriv ut totala tiden
+                    total += (hourE * 60) + minE;
+                    label_total.Text = String.Format("{0} hrs {1} min", (total - (total % 60)) / 60, total % 60);
+                    label_total.Left = (listView.Left + listView.Width) - label_total.Width;
+
 
                     // Rensa alla text fält
                     inputHourStart.Text = "";
